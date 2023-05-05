@@ -7,7 +7,7 @@ import 'package:weather_forecast_app/models/weather_model.dart';
 class TodaysWeather extends StatelessWidget {
   final WeatherModel? weatherModel;
   const TodaysWeather({Key? key, this.weatherModel}) : super(key: key);
-  {}
+
   WeatherType getWeatherType (Current? current) {
 
     if (current?.isDay == 1) {

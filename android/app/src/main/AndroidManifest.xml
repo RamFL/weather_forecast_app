@@ -1,5 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.weather_forecast_app">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
    <application
         android:label="weather_forecast_app"
         android:name="${applicationName}"
